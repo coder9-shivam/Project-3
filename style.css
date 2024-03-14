@@ -4,25 +4,26 @@
     box-sizing: border-box;
 }
 
-body{
+html, body{
     font-family: 'Roboto', sans-serif;
+    line-height: 1.4;
+    font-weight: 400;
 }
 
 .hero_section{
     background-image: url(images/developer.png);
     min-height: 100vh;
-    display: flex;
-    justify-content: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-.container{
+.container_text{
     color: white;
-    margin: 75px auto;
-}
-
-.container h1, h3{
-    font-size: 4.8rem;
-    text-transform: capitalize;
+    max-width: 900px;
+    margin: 0 auto;
+    padding-top: 64px;
+    padding-left: 16px;
 }
 
 .container span{
