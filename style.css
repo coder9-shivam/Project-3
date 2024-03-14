@@ -4,7 +4,48 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
 .hero_section{
     background-image: url(images/developer.png);
-    height: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    color: white;
+    margin: 75px auto;
+}
+
+.container h1, h3{
+    font-size: 4.8rem;
+    text-transform: capitalize;
+}
+
+.container span{
+    font-size: 2rem;
+    text-transform: none;
+}
+
+.work_slogun{
+    height: 200px;
+    background-color: black;
+    color: whitesmoke;
+}
+
+.slogun_text{
+    font-size: 2.5rem;
+    padding: 35px;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 100;
+}
+
+.slogun_text span{
+    font-size: 5.5rem;
+    color: white;
+    font-weight: 800;
 }
