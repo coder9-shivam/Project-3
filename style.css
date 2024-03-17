@@ -10,6 +10,8 @@ html, body{
     font-weight: 400;
 }
 
+
+/* HEADER */
 .hero_section{
     background-image: url(images/developer.png);
     min-height: 100vh;
@@ -28,29 +30,25 @@ html, body{
 
 .large_text{
     font-size: 4.1rem;
-    font-weight: 500;
+    font-weight: 400;
+    text-transform: uppercase;
 }
 
 .small_text{
     font-size: 2.3rem;
-}
-
-.work_slogun{
-    height: 200px;
-    background-color: black;
-    color: whitesmoke;
-}
-
-.slogun_text{
-    font-size: 2.5rem;
-    padding: 35px;
-    text-align: center;
     text-transform: capitalize;
-    font-weight: 100;
 }
 
-.slogun_text span{
-    font-size: 5.5rem;
-    color: white;
-    font-weight: 800;
+
+/* SLOGAN BOARD */
+.work_slogan{
+    background-color: #000;
+    padding: 20px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.slogan_text span{
+    font-size: 6.5rem;
+    font-weight: 500;
 }
